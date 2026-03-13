@@ -1,25 +1,18 @@
-# Getting Started
+# SAP CAP Car Rental
 
-Welcome to your new project.
+Sistema CRUD de locação de veículos desenvolvido com:
 
-It contains these folders and files, following our recommended project layout:
+- SAP CAP (Cloud Application Programming Model)
+- Node.js
+- OData V4
+- SQLite
+- Fiori Elements
 
-File or Folder | Purpose
----------|----------
-`app/` | content for UI frontends goes here
-`db/` | your domain models and data go here
-`srv/` | your service models and code go here
-`package.json` | project metadata and configuration
-`readme.md` | this getting started guide
+Funcionalidades:
+- Cadastro de carros
+- Cadastro de clientes
+- Registro de locações
+- Atualização de status da locação
+- Exclusão de registros
 
-
-## Next Steps
-
-- Open a new terminal and run `cds watch`
-- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
-
-
-## Learn More
-
-Learn more at https://cap.cloud.sap/docs/get-started/.
+Interface gerada automaticamente com Fiori Preview.
