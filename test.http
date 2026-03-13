@@ -1,0 +1,9 @@
+POST http://localhost:4004/odata/v4/car-rental/Cars
+Content-Type: application/json
+
+{
+  "brand": "Ford",
+  "model": "Focus",
+  "plate": "XYZ1234",
+  "status": "Disponivel"
+}
